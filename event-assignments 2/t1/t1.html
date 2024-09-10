@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="t1.css" />
+    <script src="t1.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Todo List</h1>
+      <ul id="todo-list"></ul>
+      <button class="add-btn">Add Todo Item</button>
+      <dialog id="add-todo-dialog">
+        <h2>Add Todo Item</h2>
+        <form id="add-todo-form">
+          <input
+            type="text"
+            id="new-item-input"
+            placeholder="Add todo item here"
+          />
+          <button type="submit">Add</button>
+        </form>
+      </dialog>
+    </div>
+  </body>
+</html>
